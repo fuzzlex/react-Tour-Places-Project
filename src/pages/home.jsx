@@ -21,8 +21,8 @@ font-weight:900;
 const Home = () =>{
     return(
         <Container>
-        <Navbar />
         <Content>POPULAR   TOUR   PLACES</Content>
+        <Navbar />
         <Allcards />
         </Container>
     )

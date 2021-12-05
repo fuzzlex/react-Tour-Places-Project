@@ -5,13 +5,10 @@ const Container = styled.div`
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-between;
+  justify-content:space-around;
 `;
 const Wrapper = styled.div`
-  display: flex;
-  flex-direction: row;
   width: 30vw;
-  margin: 0 3px 10px 0;
   position: relative;
 `;
 const Image = styled.img`
@@ -29,7 +26,7 @@ const ImageWrapper = styled.div`
   height: 20.5rem;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
-  border-radius: 1rem;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;

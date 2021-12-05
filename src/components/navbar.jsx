@@ -13,7 +13,8 @@ const Ul = styled.ul`
 width:80vw;
 height:10vh;
 background-Color:rgba(9,9,99,0.5);
-border-radius:1rem 1rem 0 0;
+border-radius:5rem 5rem 0 0;
+box-shadow:-0px 10px 20px 20px white;
 border:2px solid black;
 display:flex;
 justify-content:center;
@@ -27,12 +28,14 @@ list-style-type:none;
 letter-spacing:2px;
 color:white;
 cursor:pointer;
-width:7rem;
+width:10rem;
 height:4rem;
 display:flex;
 align-items:center;
 justify-content:center;
 font-weight:900;
+font-family: 'Fuzzy Bubbles', cursive;
+font-size:1.3rem;
 :hover{
     Color: black;
     background-Color:white;

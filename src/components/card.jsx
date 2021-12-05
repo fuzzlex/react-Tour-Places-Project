@@ -12,18 +12,19 @@ const Wrapper = styled.div`
   position: relative;
 `;
 const Image = styled.img`
-  width: 80%;
-  height: 20rem;
+  width: 100%;
+  height: 30rem;
   object-fit: cover;
   border: 0.25rem solid black;
   border-radius: 10px;
-  overflow: hidden;
+  margin:1rem 0;
+
 `;
 const ImageWrapper = styled.div`
   position: absolute;
-  bottom: -5rem;
-  width: 81%;
-  height: 20.5rem;
+  bottom: -8rem;
+  width: 102%;
+  height: 30.5rem;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   border-radius: 10px;
@@ -31,6 +32,8 @@ const ImageWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  margin:1.1rem 0;
   :hover {
     opacity: 1;
     bottom: 0;
